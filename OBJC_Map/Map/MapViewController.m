@@ -315,7 +315,7 @@
             
             if ([placemarks count] > 0) {
                 
-                CLPlacemark *placemark= placemarks[0];
+                CLPlacemark *placemark= placemarks.lastObject;
                 [self updateLocationInfo:placemark];
                 
                 _distance = [self getDistance:_locTarget loc2:_locUser];
