@@ -3,7 +3,7 @@ OBJC_Map
 
 Test project.  
 Parse JSON data and show it on map in **annotation view**.  
-iOS8, MapKit, swift.
+iOS8, MapKit, obj-c.
 
 ##### How to run:
 download json from: http://winklerstudio.com/test.json  
