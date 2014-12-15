@@ -43,5 +43,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>SwiftMapp tracks your position</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>SwiftMapp always tracks your position</string>
 </dict>
 </plist>

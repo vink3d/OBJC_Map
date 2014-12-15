@@ -14,6 +14,14 @@
 		833363511A3C4E5000C592C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833363501A3C4E5000C592C3 /* Images.xcassets */; };
 		833363541A3C4E5000C592C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 833363521A3C4E5000C592C3 /* LaunchScreen.xib */; };
 		833363601A3C4E5000C592C3 /* OBJC_MapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8333635F1A3C4E5000C592C3 /* OBJC_MapTests.m */; };
+		8333636A1A3C4E6000C592C3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833363691A3C4E6000C592C3 /* CoreLocation.framework */; };
+		8333636C1A3C4E6700C592C3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8333636B1A3C4E6700C592C3 /* MapKit.framework */; };
+		8333636E1A3C4E7000C592C3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8333636D1A3C4E7000C592C3 /* SystemConfiguration.framework */; };
+		833363941A3C53EA00C592C3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8333638B1A3C53EA00C592C3 /* Reachability.m */; };
+		8333639C1A3C545000C592C3 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 833363971A3C545000C592C3 /* MapAnnotation.m */; };
+		8333639E1A3C545000C592C3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8333639B1A3C545000C592C3 /* MapViewController.m */; };
+		833363A21A3CA64200C592C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833363A11A3CA64200C592C3 /* Foundation.framework */; };
+		833363A51A3D971F00C592C3 /* MapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 833363A41A3D971F00C592C3 /* MapObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,18 @@
 		833363591A3C4E5000C592C3 /* OBJC_MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBJC_MapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8333635E1A3C4E5000C592C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8333635F1A3C4E5000C592C3 /* OBJC_MapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBJC_MapTests.m; sourceTree = "<group>"; };
+		833363691A3C4E6000C592C3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8333636B1A3C4E6700C592C3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8333636D1A3C4E7000C592C3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8333638A1A3C53EA00C592C3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8333638B1A3C53EA00C592C3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		833363961A3C545000C592C3 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		833363971A3C545000C592C3 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		8333639A1A3C545000C592C3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		8333639B1A3C545000C592C3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		833363A11A3CA64200C592C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		833363A31A3D971F00C592C3 /* MapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapObject.h; sourceTree = "<group>"; };
+		833363A41A3D971F00C592C3 /* MapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833363A21A3CA64200C592C3 /* Foundation.framework in Frameworks */,
+				8333636E1A3C4E7000C592C3 /* SystemConfiguration.framework in Frameworks */,
+				8333636C1A3C4E6700C592C3 /* MapKit.framework in Frameworks */,
+				8333636A1A3C4E6000C592C3 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,10 @@
 		833363371A3C4E5000C592C3 = {
 			isa = PBXGroup;
 			children = (
+				833363A11A3CA64200C592C3 /* Foundation.framework */,
+				8333636D1A3C4E7000C592C3 /* SystemConfiguration.framework */,
+				8333636B1A3C4E6700C592C3 /* MapKit.framework */,
+				833363691A3C4E6000C592C3 /* CoreLocation.framework */,
 				833363421A3C4E5000C592C3 /* OBJC_Map */,
 				8333635C1A3C4E5000C592C3 /* OBJC_MapTests */,
 				833363411A3C4E5000C592C3 /* Products */,
@@ -81,6 +109,8 @@
 		833363421A3C4E5000C592C3 /* OBJC_Map */ = {
 			isa = PBXGroup;
 			children = (
+				833363951A3C545000C592C3 /* map */,
+				8333636F1A3C53EA00C592C3 /* tools */,
 				833363471A3C4E5000C592C3 /* AppDelegate.h */,
 				833363481A3C4E5000C592C3 /* AppDelegate.m */,
 				8333634A1A3C4E5000C592C3 /* ViewController.h */,
@@ -117,6 +147,29 @@
 				8333635E1A3C4E5000C592C3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8333636F1A3C53EA00C592C3 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				8333638A1A3C53EA00C592C3 /* Reachability.h */,
+				8333638B1A3C53EA00C592C3 /* Reachability.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		833363951A3C545000C592C3 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				833363961A3C545000C592C3 /* MapAnnotation.h */,
+				833363971A3C545000C592C3 /* MapAnnotation.m */,
+				8333639A1A3C545000C592C3 /* MapViewController.h */,
+				8333639B1A3C545000C592C3 /* MapViewController.m */,
+				833363A31A3D971F00C592C3 /* MapObject.h */,
+				833363A41A3D971F00C592C3 /* MapObject.m */,
+			);
+			name = map;
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8333634C1A3C4E5000C592C3 /* ViewController.m in Sources */,
+				833363A51A3D971F00C592C3 /* MapObject.m in Sources */,
+				8333639C1A3C545000C592C3 /* MapAnnotation.m in Sources */,
+				833363941A3C53EA00C592C3 /* Reachability.m in Sources */,
 				833363491A3C4E5000C592C3 /* AppDelegate.m in Sources */,
 				833363461A3C4E5000C592C3 /* main.m in Sources */,
+				8333639E1A3C545000C592C3 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +404,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OBJC_Map/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OBJC_Map/tools/analitics",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,6 +418,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OBJC_Map/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OBJC_Map/tools/analitics",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
